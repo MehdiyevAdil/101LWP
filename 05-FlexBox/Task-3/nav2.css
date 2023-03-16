@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con{
+width: 100%;
+height: 100vh;
+display: flex;
+flex-wrap:wrap ;
+}
+.con div{
+    width: 33.3%;
+    height: 25%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a1{
+    background-color: aqua;
+    }
+    .a2{
+        background-color:blue ;
+    
+    }
+    .a3{
+        background-color:blueviolet;
+    }
+    .a4{
+        background-color:burlywood;
+    }
+    .a5{
+        background-color:chartreuse;
+    }
+    .a6{
+        background-color:brown;
+    }
+    .a7{
+        background-color:chartreuse
+    }
+    .a8{
+        background-color:cadetblue;
+    }
+    .a9{
+        background-color:black;
+    }
+    .a10{
+        background-color:blanchedalmond;
+    }
