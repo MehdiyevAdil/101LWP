@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'a a a'
+    'b f d'
+    'b e e'
+    'g g h'
+    'l l l';
+
+  gap: 10px;
+  background-color: #f31760;
+  padding: 5px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item1 { grid-area: a; }
+.item2 { grid-area: b; }
+.item3 { grid-area: d; }
+.item4 { grid-area: e; }
+.item5 { grid-area: f; }
+.item6 { grid-area: g; }
+.item7 { grid-area: h; }
+.item8 { grid-area: l;}
