@@ -1,0 +1,343 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+}
+/* navbar start */
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: azure;
+    letter-spacing: 4px;
+    z-index: 1;
+
+}
+
+nav h2 {
+    font-size: 40px;
+    color: #19434c;
+    text-shadow: 2px 4px 2px #e6ded2;
+}
+
+h2 span {
+    color: #f28f04;
+}
+
+ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    padding-left: 50px;
+}
+
+/* li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: #19434c;
+} */
+li a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    color: #19434c;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+a:before,
+a:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color: #f28f04;
+    transition: 0.5s;
+}
+
+a:after {
+    left: 0;
+    bottom: -10px;
+}
+
+a:before {
+    right: 0;
+    top: -10px;
+}
+
+a:hover {
+    color: #f28f04;
+}
+
+a:hover:after,
+a:hover:before {
+    width: 100%;
+}
+
+/* navbar end */
+/* main start */
+/* secton image start */
+main{
+    width: 100%;
+    height: calc(100vh-270px);
+}
+#john {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+#one {
+    width: 350px;
+    height: 550px;
+    background-color: #19434c;
+    position: absolute;
+    border-radius: 7px;
+    right: 70px;
+    bottom: 30px;
+    background-image: url("/TaskWeb-2/img/Trevor-350x550.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#two {
+    width: 350px;
+    height: 550px;
+    border: 3px solid #f28f04;
+    border-radius: 7px;
+}
+
+#image {
+    display: flex;
+    position: relative;
+}
+
+/* secton image end */
+/* secton word start */
+#word {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    border-top: 5px solid #f28f04;
+    max-width: 115px;
+
+}
+
+#word h1 {
+    font-size: 92px;
+    letter-spacing: 1px;
+    color: #19434c;
+}
+
+#word h5 {
+    font-size: 27px;
+    padding: 13px 0px;
+    letter-spacing: 5px;
+    color: #19434c;
+}
+
+.but {
+    width: 130px;
+    height: 45px;
+    letter-spacing: 4px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f28f04;
+    color: #19434c;
+}
+
+button:hover {
+    background-color: #f2a704dd;
+    box-shadow: 2px 4px 2px #19434c;
+}
+
+#word p {
+    padding-top: 50px;
+}
+
+p i {
+    padding-right: 50px;
+    font-size: 35px;
+    color: #19434c;
+}
+
+p i:hover {
+    color: #f28f04;
+}
+
+/* secton word end */
+
+/* section info start */
+#info {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image-2 {
+    position: relative;
+    right: 250px;
+}
+
+#p1 {
+    width: 450px;
+    height: 650px;
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+    border-radius: 8px;
+    background-image: url("/TaskWeb-2/img/tasss.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#p2 {
+    width: 450px;
+    height: 650px;
+    border-radius: 8px;
+    border: 3px solid #f28f04;
+}
+
+#about {
+    width: 300px;
+    height: 300px;
+    /* margin-left: 100px; */
+    margin-bottom: 250px;
+}
+#about p {
+    
+    width: 800px;
+    height: 300px;
+}
+
+#about h1 {
+    font-size: 70px;
+    color: #19434c;
+}
+
+.but-2 {
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f28f04;
+    color: #19434c;
+}
+
+/* section info end */
+/* section service start */
+.service{
+    background-color:azure;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 100%;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.meas{
+    background-color: #e6ded2;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+}
+.meas:hover{
+    background-color: #f28f04;
+
+}
+.service h1{
+    display: flex;
+    font-size: 70px;
+    color: #19434c;
+    
+}
+.card i{
+    font-size: 40px;
+    color: #19434c;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.line-2 {
+    border-top: 4px solid #f28f04;
+    max-width: 110px;
+    margin-left: 35%;
+    padding-bottom: 5px;
+    z-index: 2;
+
+}
+.card h3{
+    padding-bottom: 7px;
+    color: #19434c;
+    letter-spacing: 1.5px;
+}
+.card h4{
+    color: cadetblue;
+}
+/* section service end */
+/* main end */
+
+/* footer start */
+#end{
+    background-color:#000000;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#end p{
+    padding-bottom: 20px;
+}
+#end p i{
+    font-size: 20px;
+}
+#end h2{
+    font-size: 25px;
+    color:#19434c;
+}
+
+/* footer end  */
+

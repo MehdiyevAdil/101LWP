@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    border-top: 2px solid #bd5d38;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    width: 100%;
+    height: 100vh;
+
+}
+
+h1{
+    font-style: italic;
+    font-size: 60px;
+    color: #343a40;
+}
+header{
+    position: fixed;
+}
+/* info start */
+#info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    min-height: 100vh;
+    background-color: #bd5d38;
+    justify-content: center;
+    align-items: center;
+}
+#mail a{
+    color: #bd5d38;
+}
+#mail a:hover{
+    color: #ca7d60;
+}
+
+#info img {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200%;
+    border: 8px solid #ca7d60;
+}
+
+#info ul {
+    margin: 20px;
+    color: bisque;
+    text-decoration: none;
+    list-style: none;
+}
+
+#info li {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+#info a {
+    color: inherit;
+    text-decoration: inherit;
+    font-size: 22px;
+}
+#info a:hover{
+    color:burlywood;
+}
+/* info end */
+
+/* main start */
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* about start */
+#about {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    width: 1235px;
+    padding-left: 320px;
+    /* padding: 80px 48px; */
+    /* background-color: aquamarine; */
+}
+
+#about #black {
+    font-size: calc(1.725rem + 5.7vw);
+    font-weight: 700;
+    color: #6c757d;
+}
+
+#black span{
+    
+    font-size: calc(1.725rem + 5.7vw);
+    font-weight: 700;
+    color: #bd5d38;
+}
+
+#about div {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#about p {
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+
+#about i {
+    color: #6c757d;
+    font-size: 50px;
+    padding-left: 25px;
+}
+#about i:hover{
+    color: #bd5d38;
+}
+
+#seasons{
+    display: flex;
+    flex-direction: column;
+    width: 1235px;
+    padding-left: 320px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+#seasons div{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#seasons div>p{
+    align-self:flex-end;
+}
+/* about end */
+
+/* acters start */
+#acters{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 320px;
+}  
+#acters img{
+    margin-top: 10px;
+    width: 145px;
+    height: auto;
+    ;
+    border: 8px solid #6c757d;
+}      
+#acters img:hover {
+    transform: scaleX(-1);
+  } 
+  /* acters end   */
+
+  /* music start */
+
+#music{
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 320px;
+}
+#music p{
+    font-weight: 300;
+}
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+
+
+audio
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #006773;
+-webkit-box-shadow:  2px 2px 4px 0px #006773;
+box-shadow: 2px 2px 4px 0px #006773;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+  /* music end */
+
+  /* section london start */
+  #london{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 320px;
+  }
+  /* section london end */
+  #awd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1235px;
+    min-height: 100vh;
+    margin-bottom: 70px;
+    padding-left: 320px;
+  }
+  /* section awd start */
+  #awd a{
+    color: #bd5d38;
+  }
+/* section awd end */
+
+/* main end */

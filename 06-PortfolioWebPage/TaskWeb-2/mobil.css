@@ -1,0 +1,248 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    overflow: hidden;
+    height: 150px;
+}
+
+nav li {
+    list-style: none;
+    /* padding-left: 20px; */
+     margin-right: 20px; 
+     letter-spacing: 0.3px;
+}
+
+#one {
+    display: none;
+
+}
+
+#two {
+    display: none;
+}
+
+#image {
+    display: none;
+}
+
+#word {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    display: none;
+}
+
+#word h1 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #19434c;
+    margin: 0 auto;
+}
+
+#word h5 {
+    font-size: 16px;
+    padding: 13px 0px;
+    letter-spacing: 5px;
+    color: #19434c;
+}
+
+.but {
+    width: 90px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f28f04;
+    color: #19434c;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #f2a704dd;
+    box-shadow: 2px 4px 2px #19434c
+}
+
+#word p {
+    padding-top: 50px;
+}
+
+#word p i {
+    padding-right: 6px;
+    font-size: 20px;
+    color: #f28f04
+}
+
+#word p i:hover {
+    color: #f28f04;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image-2 {
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+
+#p1 {
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+    border-radius: 8px;
+    background-image: url("/img/tasss.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#p2 {
+    width: 300px;
+    height: 500px;
+    border-radius: 8px;
+    border: 3px solid #f28f04;
+}
+
+#about {
+    width: 300px;
+    height: 300px;
+    /* margin-left: 100px; */
+}
+
+#about p {
+
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: auto;
+    border: 1px solid bisque;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#about h1 {
+    margin-left: 80px;
+    font-size: 40px;
+    color: #19434c;
+}
+
+.but-2 {
+    margin-top: 10px;
+    margin-left: 95px;
+    width: 90px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f28f04;
+    color: #19434c;
+}
+
+.service {
+    background-color: azure;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.meas {
+    background-color: #e6ded2;
+    border-radius: 10px;
+    width: 300px;
+    height: 260px;
+    overflow: auto;
+}
+
+.meas:hover {
+    background-color: #f28f04;
+
+}
+
+.service h1 {
+    display: flex;
+    font-size: 40px;
+    color: #19434c;
+
+}
+
+.card i {
+    font-size: 20px;
+    color: #19434c;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.line-2 {
+    border-top: 2px solid #f28f04;
+    max-width: 50px;
+    margin-left: 35%;
+    padding-bottom: 5px;
+    z-index: 2;
+
+}
+
+.card h3 {
+    padding-bottom: 7px;
+    color: #19434c;
+}
+
+.card h4 {
+    font-size: 14px;
+    color: cadetblue;
+}
+
+#end {
+    background-color: #000000;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#end p {
+    padding-bottom: 20px;
+}
+
+#end h2 {
+    margin-left: 50px;
+    font-size: 16px;
+    color: #19434c;
+}
+
+#end p i {
+    font-size: 22px;
+}

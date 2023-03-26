@@ -1,0 +1,350 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color:  lightblue;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+}
+/* navbar start */
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color:azure;
+    letter-spacing: 4px;
+    z-index: 1;
+
+}
+
+nav h2 {
+    margin: 0 auto;
+    font-size: 32px;
+    color: #19434c;
+    text-shadow: 2px 4px 2px #e6ded2;
+}
+
+h2 span {
+    color: #f28f04;
+}
+
+ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    padding-left: 30px;
+}
+
+/* li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: #19434c;
+} */
+li a {
+    position: relative;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: #19434c;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+a:before,
+a:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color: lightblue;
+    transition: 0.5s;
+}
+
+a:after {
+    left: 0;
+    bottom: -10px;
+}
+
+a:before {
+    right: 0;
+    top: -10px;
+}
+
+a:hover {
+    color: bisque
+}
+
+a:hover:after,
+a:hover:before {
+    width: 100%;
+}
+/* navbar end */
+/* main start */
+/* secton image start */
+main{
+    width: 100%;
+    height: calc(100vh-270px);
+}
+#john {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+#one {
+    width: 250px;
+    height: 400px;
+    background-color: #19434c;
+    position: absolute;
+    border-radius: 7px;
+    right: 70px;
+    bottom: 30px;
+    background-image: url("/img/Trevor-350x550.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#two {
+    width: 250px;
+    height: 400px;
+    border: 3px solid #f28f04;
+    border-radius: 7px;
+}
+
+#image {
+    display: flex;
+    position: relative;
+}
+
+/* secton image end */
+/* secton word start */
+#word {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    border-top: 3px solid #f28f04;
+    max-width: 60px;
+    margin-left: 15%;
+
+}
+
+#word h1 {
+    font-size: 50px;
+    margin-left: 15%;
+    letter-spacing: 1px;
+    color: #19434c;
+}
+
+#word h5 {
+    font-size: 14px;
+    padding: 13px 0px;
+    letter-spacing: 2.2px;
+    color: #19434c;
+}
+
+.but {
+    margin-left: 25%;
+    width: 100px;
+    height: 45px;
+    letter-spacing: 4px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f28f04;
+    color: #19434c;
+}
+
+button:hover {
+    background-color: #f2a704dd;
+    box-shadow: 2px 4px 2px #19434c;
+}
+
+#word p {
+    padding-top: 20px;
+}
+
+#word p i {
+    margin-left: 5%;
+    padding-right: 20px;
+    font-size: 25px;
+    color: #19434c;
+}
+
+#word p i:hover {
+    color: #f28f04;
+}
+
+/* secton word end */
+
+/* section info start */
+#info {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image-2 {
+    position: relative;
+    right: 80px;
+}
+
+#p1 {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+    border-radius: 8px;
+    background-image: url("/img/tasss.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#p2 {
+    width: 250px;
+    height: 400px;
+    border-radius: 8px;
+    border: 3px solid #f28f04;
+}
+
+#about {
+    width: 300px;
+    height: 300px;
+    /* margin-left: 100px; */
+    margin-bottom: 250px;
+}
+#about p {
+    overflow: auto;
+    border: 2px solid #e6ded2; ;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+}
+
+#about h1 {
+    font-size: 40px;
+    color: #19434c;
+}
+
+.but-2 {
+    width: 100px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+    background-color: #f28f04;
+    color: #19434c;
+}
+
+/* section info end */
+/* section service start */
+.service{
+    background-color:azure;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 100%;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.meas{
+    background-color: #e6ded2;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    margin-left: 10px;
+}
+.meas:hover{
+    background-color: #f28f04;
+
+}
+.service h1{
+    display: flex;
+    font-size: 45px;
+    color: #19434c;
+    
+}
+.card i{
+    font-size: 26px;
+    color: #19434c;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.line-2 {
+    border-top: 2px solid #f28f04;
+    max-width: 60px;
+    margin-left: 45%;
+    padding-bottom: 3px;
+    z-index: 2;
+
+}
+.card h3{
+    padding-bottom: 7px;
+    color: #19434c;
+    letter-spacing: 1.5px;
+}
+.card h4{
+    color: cadetblue;
+    font-size: 12px;
+}
+/* section service end */
+/* main end */
+
+/* footer start */
+#end{
+    background-color:#000000;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#end p{
+    padding-bottom: 15px;
+}
+#end h2{
+    font-size: 16px;
+    margin-left: 10px;
+    color:#19434c;
+}
+
+/* footer end  */
