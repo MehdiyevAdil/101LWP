@@ -4,7 +4,7 @@
 
 a = +prompt("ededi daxil edin:");
 let a1, a2, a3;//325
-if (a < 99 || a > 999) {
+if (a < 100 || a > 999) {
     console.log("3 reqemli eded daxil edin")
 } else {
     a1 = a / 100;//3
