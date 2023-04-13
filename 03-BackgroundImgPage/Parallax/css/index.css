@@ -15,18 +15,18 @@ body {
 }
 
 #section1 {
-    background-image: url("/Parallax/big.jpeg");
+    background-image: url("../big.jpeg");
     background-color: blue;
 }
 
 #section2 {
-    background-image: url("/Parallax/big.jpeg");
+    background-image: url("../big.jpeg");
     opacity: 0.8;
     background-color: #ffc100;
 }
 
 #section3 {
-    background-image: url("/Parallax/folder-img.jpeg");
+    background-image: url("../folder-img.jpeg");
     background-color: aqua;
 }
 
