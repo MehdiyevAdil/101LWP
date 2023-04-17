@@ -23,8 +23,7 @@ return text.toUpperCase();
 console.log(upperText(sampleNews));
 
 // 2) Mətn daxilindən uzunluğu 30-40 xarakter arasında olan təsadüfi mətni return edən funksiya yazın.
-// function ran(msg){
-// }
+
 // function randomText(text) {
 //     let arr = text.split('.');
 //         console.log(arr);
