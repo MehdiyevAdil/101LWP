@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+
+
+    li {
+        list-style: none;
+
+    }
+
+    button {
+        cursor: pointer;
+        border: none;
+    }
+
+    a {
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+
+body {
+    background-color: #FDF0E9;
+}
+
+main {
+    width: 100%;
+    background-color: #FDF0E9;
+    font-family: 'Epilogue', sans-serif;
+
+    hr {
+        color: rgba(243, 209, 191, 1);
+        width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+footer {
+    background-color: #FDF0E9;
+
+}
+
+// perconal tags is text 
+#personal {
+    h1 {
+        font-size: 72px;
+        font-weight: 800;
+        line-height: 80px;
+        letter-spacing: -2px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    h2 {
+        font-size: 56px;
+        font-weight: 800;
+        line-height: 64px;
+        letter-spacing: -1px;
+        color: rgba(57, 20, 0, 1);
+    }
+
+    h3 {
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 48px;
+
+    }
+
+    h4 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        color: rgba(57, 20, 0, 1);
+    }
+
+    h5 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 3px;
+        color: rgba(239, 109, 88, 1);
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    // button novleri
+    .button-one {
+        text-transform: uppercase;
+        height: 48px;
+        width: 138px;
+        left: 0px;
+        top: 0px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 14px;
+
+    }
+
+    .button-two {
+        text-transform: uppercase;
+        height: 48px;
+        width: 154px;
+        left: 0px;
+        top: 0px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 14px;
+
+    }
+
+    .button-tree {
+        text-transform: uppercase;
+        height: 48px;
+        width: 170px;
+        left: 0px;
+        top: 0px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 14px;
+
+    }
+
+    // icon daireleri
+    .oval {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #EF6C57;
+        position: relative;
+
+        i {
+            position: absolute;
+            font-size: 32px;
+        }
+    }
+
+    .oval-two {
+        width: 58px;
+        height: 48px;
+        border-radius: 50%;
+        position: relative;
+        background-color: #FDF0E9;
+        box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
+
+        i {
+            color: #EF6C57;
+            ;
+            position: absolute;
+            font-size: 24px;
+            left: 32%;
+            top: 22%;
+        }
+    }
+}
+@media only screen and (max-width: 768px){
+    h1 {
+        font-size: 62px !important;
+        font-weight: 800;
+        line-height: 80px;
+        letter-spacing: -2px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    h2 {
+        font-size: 46px !important;
+        font-weight: 800;
+        line-height: 64px;
+        letter-spacing: -1px;
+        color: rgba(57, 20, 0, 1);
+    }
+
+    h3 {
+        font-size: 35px !important;
+        font-weight: 800;
+        line-height: 48px;
+
+    }
+
+    h4 {
+        font-size: 20px !important;
+        font-weight: 700;
+        line-height: 32px;
+        color: rgba(57, 20, 0, 1);
+    }
+
+    h5 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 3px;
+        color: rgba(239, 109, 88, 1);
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+}
+// containers is personal page
+.container-pr-one {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-pr-two {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-pr-tree {
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+//  container is agency pages
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-2 {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-3 {
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+}
