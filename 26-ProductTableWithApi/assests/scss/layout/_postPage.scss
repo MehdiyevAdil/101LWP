@@ -1,0 +1,79 @@
+.containerCard {
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    gap: 20px;
+}
+.forms{
+display: flex;
+align-items: center;
+justify-content: center;
+margin:100px auto;
+}
+
+.card {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+
+.cardOne {
+    width: 380px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: dimgrey;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 20px;
+
+    p {
+        font-size: 20px;
+        font-weight: 700;
+        color: azure;
+    }
+
+}
+
+input {
+    width: 440px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+form {
+    width: 500px;
+    height: 550px;
+    background-color: darkcyan;
+    padding: 30px;
+    border-radius: 6px;
+
+    p {
+        font-size: 20px;
+        font-weight: 700;
+        color: cornsilk;
+    }
+
+    button {
+        width: 100px;
+        height: 40px;
+        border-radius: 6px;
+        border: none;
+        margin-left: 40%;
+        color: darkcyan;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
