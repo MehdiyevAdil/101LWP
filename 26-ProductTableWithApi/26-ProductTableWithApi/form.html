@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/css/main.css">
+    <title>Form</title>
+</head>
+
+<body >
+ <section class="forms">
+    <form action="https://northwind.vercel.app/api/customers" method="post" enctype="application/json">
+        <p>ID</p> 
+        <input type="text" class="ilk" name="id" placeholder="ID">
+        <p>CompanyName</p> 
+        <input type="text" class="ilk" name="companyName" placeholder="CompanyName">
+        <p>ContaceName</p> 
+        <input type="text" class="ilk" name="contactName" placeholder="ContaceName">
+        <p>ContactTitle</p> 
+        <input type="text" class="ilk" name="contactTitle" placeholder="ContactTitle"> 
+
+        <fieldset name="address">
+            <p>City</p>
+            <input type="text" class="ilk" name="city" placeholder="City">
+            <p>Country</p>
+            <input type="text" class="ilk" name="country" placeholder="Country">
+            <p>Phone</p>
+            <input type="text" class="ilk" name="phone" placeholder="Phone"> <br>
+            <p>Street</p>
+            <input type="text" class="ilk" name="street" placeholder="Street"> <br>
+            <p>Region</p>
+            <input type="text" class="ilk" name="region" placeholder="Region"> <br>
+            <p>PostalCode</p>
+            <input type="text" class="ilk" name="postalCode" placeholder="PostalCode"> <br>
+        </fieldset>
+        <button type="submit"> Submit </button>
+    </form>
+ </section>
+    <script src="./assests/js/index.js"></script>
+</body>
+
+</html>
